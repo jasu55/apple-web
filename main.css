@@ -35,6 +35,7 @@ body {
   letter-spacing: -0.37px;
   font-size: 16px;
   margin-right: 16px;
+  font-family: inter;
 }
 
 .buy-button {
@@ -43,6 +44,7 @@ body {
   padding: 12px 20px;
   border-radius: 999px;
   border: 1px solid rgba(41, 151, 255, 1);
+  font-family: inter;
 }
 .nvvr2 {
   background-image: url(images/nvvr2.png);
@@ -112,19 +114,49 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
 }
 .heading {
   margin-top: 58px;
   height: 33px;
-  width: 100%;
+  width: 350px;
 }
 .product-item:nth-child(1) div:nth-child(4) {
   margin-top: 324px;
+}
+.product-item > p {
+  color: rgba(29, 29, 31, 1);
+  font-size: 18px;
+}
+.product-item:nth-child(2) {
+  background-image: url(images/airpods.png);
+}
+.product-item:nth-child(2) > p,
+h1 {
+  color: white;
+}
+.product-item:nth-child(2) > h1 {
+  margin: 413px 0 0 0;
+}
+.product-item:nth-child(3) {
+  background-image: url(images/macbook.png);
+}
+.product-item:nth-child(4) {
+  background-image: url(images/trade.png);
+}
+.product-item:nth-child(5) {
+  background-image: url(images/airpods.png);
+}
+.product-item:nth-child(6) {
+  background-image: url(images/card.png);
 }
 
 @media (max-width: 768px) {
   .nvvr1 {
     background-image: url(images/nvvr1jijig.png);
+  }
+  .nvvr2 {
+    background-image: url(images/nvvr2tablet.png);
   }
   .nvvr2 > h1 {
     font-size: 42px;
@@ -138,12 +170,17 @@ body {
   }
   .product {
     flex-direction: column;
+    width: 100%;
+    margin: 0;
   }
   .product-item {
     width: 100%;
   }
   .product-item:nth-child(1) {
     width: 100%;
+  }
+  .product-item > p {
+    color: black;
   }
 }
 @media (max-width: 390px) {
@@ -182,5 +219,8 @@ body {
   }
   .nvvr3 {
     display: none;
+  }
+  .product-item > p {
+    color: black;
   }
 }
