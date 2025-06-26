@@ -1,0 +1,32 @@
+.nvvr2 {
+  background-image: url(images/nvvr2.png);
+  width: 100%;
+  height: 692px;
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+}
+
+.nvvr2 > h1 {
+  font-weight: 600;
+  font-size: 52px;
+  letter-spacing: -0.28px;
+  color: rgba(245, 245, 247, 1);
+  padding-top: 55px;
+  margin-top: 16px;
+}
+
+.nvvr2 > p {
+  font-size: 24px;
+  color: rgba(245, 245, 247, 1);
+}
+
+.nvvr2 .learn-button {
+  background-color: white;
+  color: black;
+}
+
+.nvvr2 .buy-button {
+  color: white;
+  border-color: white;
+}

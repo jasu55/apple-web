@@ -1,0 +1,93 @@
+.product {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 12px;
+  justify-content: center;
+}
+.product-item {
+  background-image: url(images/ipad.png);
+  height: 580px;
+  width: calc(50% - 6px);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.heading {
+  margin-top: 58px;
+  height: 33px;
+  width: 350px;
+}
+.product-item:nth-child(1) div:nth-child(4) {
+  margin-top: 324px;
+}
+.product-item > p {
+  color: rgba(29, 29, 31, 1);
+  font-size: 18px;
+}
+.product-item:nth-child(2) {
+  background-image: url(images/airpods.png);
+}
+.product-item:nth-child(2) > p,
+h1 {
+  color: white;
+}
+.product-item:nth-child(2) > h1 {
+  margin: 390px 0 0 0;
+}
+.product-item:nth-child(3) {
+  background-image: url(images/arirpod-tablet.png);
+}
+.product-item:nth-child(4) {
+  background-image: url(images/iwatch.png);
+}
+.product-item:nth-child(4) > h1 {
+  color: black;
+  font-size: 32px;
+  margin: 58px 0 0 0;
+}
+.product-item:nth-child(4) p:nth-child(2) {
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 4px 0 0 0;
+}
+.product-item:nth-child(4) p:nth-child(3) {
+  color: rgba(29, 29, 31, 1);
+  font-size: 18px;
+  margin: 4px 0 16px 0;
+}
+.product-item:nth-child(5) {
+  background-image: url(images/macbook.png);
+}
+.product-item:nth-child(5) > h1 {
+  color: rgba(29, 29, 31, 1);
+  font-size: 36px;
+  margin: 48px 0 0 0;
+}
+.product-item:nth-child(5) > p {
+  color: rgba(29, 29, 31, 1);
+  font-size: 18px;
+  margin: 2px 0 10px 0;
+}
+
+.product-item:nth-child(6) {
+  background-image: url(images/trade.png);
+}
+.product-item:nth-child(7) {
+  background-image: url(images/trade.png);
+}
+.product-item:nth-child(8) {
+  background-image: url(images/trade.png);
+}
+.product-item:nth-child(9) {
+  background-image: url(images/card.png);
+}
+.product-item:nth-child(3),
+.product-item:nth-child(7),
+.product-item:nth-child(8) {
+  display: none;
+}

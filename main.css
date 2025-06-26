@@ -1,156 +1,8 @@
 body {
   font-family: inter;
-  margin: 0;
+  margin: 0 100px 0 100px;
+  max-width: 1920px;
 }
-
-.nvvr1 {
-  background-image: url(images/nvvr1.png);
-  width: 100%;
-  height: 692px;
-  background-size: cover;
-  text-align: center;
-  background-position: center;
-}
-
-.nvvr1 > h1 {
-  font-weight: 600;
-  font-size: 52px;
-  letter-spacing: -0.28px;
-  color: rgba(245, 245, 247, 1);
-  padding-top: 55px;
-  margin-top: 16px;
-}
-
-.nvvr1 > p {
-  font-size: 24px;
-  color: rgba(245, 245, 247, 1);
-}
-
-.learn-button {
-  background-color: rgba(0, 113, 227, 1);
-  padding: 12px 20px;
-  border-radius: 999px;
-  border: 0;
-  color: white;
-  letter-spacing: -0.37px;
-  font-size: 16px;
-  margin-right: 16px;
-  font-family: inter;
-}
-
-.buy-button {
-  background-color: transparent;
-  color: rgba(41, 151, 255, 1);
-  padding: 12px 20px;
-  border-radius: 999px;
-  border: 1px solid rgba(41, 151, 255, 1);
-  font-family: inter;
-}
-.nvvr2 {
-  background-image: url(images/nvvr2.png);
-  width: 100%;
-  height: 692px;
-  background-size: cover;
-  text-align: center;
-  background-position: center;
-}
-
-.nvvr2 > h1 {
-  font-weight: 600;
-  font-size: 52px;
-  letter-spacing: -0.28px;
-  color: rgba(245, 245, 247, 1);
-  padding-top: 55px;
-  margin-top: 16px;
-}
-
-.nvvr2 > p {
-  font-size: 24px;
-  color: rgba(245, 245, 247, 1);
-}
-
-.nvvr2 .learn-button {
-  background-color: white;
-  color: black;
-}
-
-.nvvr2 .buy-button {
-  color: white;
-  border-color: white;
-}
-.nvvr3 {
-  background-image: url(images/nvvr3.png);
-  background-size: cover;
-  width: 100%;
-  height: 692px;
-  background-position: center;
-  text-align: center;
-}
-.nvvr3 > h1 {
-  font-weight: 600;
-  font-size: 52px;
-  letter-spacing: -0.28px;
-  color: black;
-  padding-top: 446px;
-  margin-bottom: 0;
-}
-
-.nvvr3 > p {
-  font-size: 24px;
-  color: black;
-}
-.product {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin: 0 12px;
-}
-.product-item {
-  background-image: url(images/ipad.png);
-  height: 580px;
-  width: calc(50% - 6px);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-}
-.heading {
-  margin-top: 58px;
-  height: 33px;
-  width: 350px;
-}
-.product-item:nth-child(1) div:nth-child(4) {
-  margin-top: 324px;
-}
-.product-item > p {
-  color: rgba(29, 29, 31, 1);
-  font-size: 18px;
-}
-.product-item:nth-child(2) {
-  background-image: url(images/airpods.png);
-}
-.product-item:nth-child(2) > p,
-h1 {
-  color: white;
-}
-.product-item:nth-child(2) > h1 {
-  margin: 413px 0 0 0;
-}
-.product-item:nth-child(3) {
-  background-image: url(images/macbook.png);
-}
-.product-item:nth-child(4) {
-  background-image: url(images/trade.png);
-}
-.product-item:nth-child(5) {
-  background-image: url(images/airpods.png);
-}
-.product-item:nth-child(6) {
-  background-image: url(images/card.png);
-}
-
 @media (max-width: 768px) {
   .nvvr1 {
     background-image: url(images/nvvr1jijig.png);
@@ -169,20 +21,27 @@ h1 {
     display: none;
   }
   .product {
-    flex-direction: column;
-    width: 100%;
-    margin: 0;
+    margin: 12px 0 0 0;
   }
   .product-item {
-    width: 100%;
+    width: calc(50% - 18px);
+  }
+
+  .product-item:nth-child(1) > p {
+    color: black;
   }
   .product-item:nth-child(1) {
     width: 100%;
   }
-  .product-item > p {
-    color: black;
+  .product-item:nth-child(4) {
+    background-image: url(images/iwatch-tablet.jpg);
+  }
+  .product-item:nth-child(2),
+  .product-item:nth-child(9) {
+    display: none;
   }
 }
+
 @media (max-width: 390px) {
   .nvvr1 {
     background-image: url(images/Figure.png);
@@ -219,8 +78,5 @@ h1 {
   }
   .nvvr3 {
     display: none;
-  }
-  .product-item > p {
-    color: black;
   }
 }

@@ -1,0 +1,11 @@
+.scroll-container {
+  width: 100%;
+  overflow: scroll;
+  scroll-snap-type: both proximity;
+}
+.scroll {
+  display: flex;
+  scroll-snap-align: center;
+  width: 4000px;
+  justify-content: center;
+}
