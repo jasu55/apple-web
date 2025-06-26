@@ -1,0 +1,41 @@
+@media (max-width: 390px) {
+    .nvvr1 {
+        background-image: url(images/Figure.png);
+        height: 500px;
+    }
+
+    .nvvr1>h1 {
+        padding-top: 350px;
+        font-size: 30px;
+    }
+
+    .nvvr1>p {
+        font-size: 18px;
+        margin: 0 0 15px 0;
+    }
+
+    .learn-button,
+    .buy-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .nvvr2 {
+        background-image: url(images/nvvr2jijig.png);
+        height: 500px;
+    }
+
+    .nvvr2>h1 {
+        padding-top: 36px;
+        font-size: 30px;
+    }
+
+    .nvvr2>p {
+        font-size: 18px;
+        margin: 0 0 15px 0;
+    }
+
+    .nvvr3 {
+        display: none;
+    }
+}
