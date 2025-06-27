@@ -1,23 +1,24 @@
 .nvvr1 {
-  aspect-ratio: 19/7;
+  width: 100%;
+  height: 700px;
   text-align: center;
-
+  background-image: url(images/nvvr1.png);
+  background-position: center;
+  background-size: cover;
 }
 
-.nvvr1>h1 {
+.nvvr1 > h1 {
   font-weight: 600;
   font-size: 52px;
   letter-spacing: -0.28px;
   color: rgba(245, 245, 247, 1);
   padding-top: 55px;
   margin-top: 16px;
-  position: absolute;
 }
 
-.nvvr1>p {
+.nvvr1 > p {
   font-size: 24px;
   color: rgba(245, 245, 247, 1);
-  position: absolute;
 }
 
 .learn-button {
@@ -39,12 +40,4 @@
   border-radius: 999px;
   border: 1px solid rgba(41, 151, 255, 1);
   font-family: inter;
-}
-
-.nvvr1-zurag {
-  object-fit: cover;
-  object-position: 50% 50%;
-
-
-  z-index: -1;
 }

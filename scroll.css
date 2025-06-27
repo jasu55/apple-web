@@ -2,10 +2,16 @@
   width: 100%;
   overflow: scroll;
   scroll-snap-type: both proximity;
+  margin-top: 12px;
 }
 .scroll {
   display: flex;
-  scroll-snap-align: center;
   width: 4000px;
-  justify-content: center;
+  gap: 16px;
+}
+.scroll2banner {
+  position: absolute;
+}
+.scroll button {
+  padding: 12px 20px;
 }
