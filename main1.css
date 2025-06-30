@@ -1,0 +1,76 @@
+.main1 {
+  margin-left: 144px;
+}
+.section1 {
+  display: flex;
+}
+.section1 > p {
+  color: rgba(110, 110, 115, 1);
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.store {
+  font-size: 42px;
+  font-weight: 700px;
+  margin: 0 32px 0 0;
+}
+.assistant {
+  display: flex;
+}
+.assistant > img {
+  margin: 0 16px 0 759px;
+}
+.assistant-text {
+  color: rgba(0, 102, 204, 1);
+  font-size: 14px;
+}
+.assistant-text p {
+  font-weight: 700;
+  color: black;
+  margin-top: 0px;
+}
+.assistant-shop div {
+  text-decoration: underline;
+  margin-bottom: 16px;
+}
+.divice-image {
+  width: 120px;
+}
+.divices {
+  display: flex;
+  gap: 25px;
+  text-align: center;
+}
+.divices h1 {
+  font-size: 14px;
+  color: rgba(29, 29, 31, 1);
+  font-weight: 700;
+  margin-top: 16px;
+}
+.main1 > p {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 60px 0 24px 0;
+}
+.scrolls-price {
+  display: flex;
+  gap: 16px;
+  overflow-x: scroll;
+}
+.scroll-price {
+  flex-shrink: 0;
+}
+.scroll-price-text {
+  position: absolute;
+  z-index: 1;
+  margin: 30px;
+}
+.price-image {
+  width: 480px;
+  border-radius: 18px;
+  position: relative;
+}
+.scroll-price div {
+  color: rgba(182, 68, 0, 1);
+}
