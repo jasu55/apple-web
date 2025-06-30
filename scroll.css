@@ -1,17 +1,55 @@
-.scroll-container {
+.scrolls-container {
   width: 100%;
   overflow: scroll;
-  scroll-snap-type: both proximity;
   margin-top: 12px;
+  font-size: 17px;
 }
+
 .scroll {
   display: flex;
-  width: 4000px;
+  width: 6300px;
   gap: 16px;
 }
-.scroll2banner {
+
+.scroll-banner {
   position: absolute;
+  bottom: 58px;
+  left: 70px;
+  display: flex;
+  align-items: center;
 }
+
+
 .scroll button {
   padding: 12px 20px;
+  background-color: white;
+  color: black;
+}
+
+.scroll-container {
+  position: relative;
+  width: 1250px;
+  height: 668px;
+}
+
+.scroll-image {
+  width: 100%;
+  height: 100%;
+}
+
+.scroll-text {
+  color: white;
+}
+
+.scrollsphone-container {
+  width: 100%;
+  overflow: scroll;
+  margin-top: 12px;
+  display: none;
+}
+
+.scrollphone {
+  display: flex;
+  width: 2300px;
+  gap: 16px;
 }

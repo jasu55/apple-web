@@ -7,7 +7,7 @@
   background-size: cover;
 }
 
-.nvvr1 > h1 {
+.nvvr1>h1 {
   font-weight: 600;
   font-size: 52px;
   letter-spacing: -0.28px;
@@ -16,7 +16,7 @@
   margin-top: 16px;
 }
 
-.nvvr1 > p {
+.nvvr1>p {
   font-size: 24px;
   color: rgba(245, 245, 247, 1);
 }

@@ -4,14 +4,14 @@
     height: 500px;
   }
 
-  .nvvr1 > h1 {
+  .nvvr1>h1 {
     padding-top: 330px;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 0;
   }
 
-  .nvvr1 > p {
+  .nvvr1>p {
     font-size: 18px;
     margin: 0 0 10px 0;
   }
@@ -27,12 +27,12 @@
     height: 500px;
   }
 
-  .nvvr2 > h1 {
+  .nvvr2>h1 {
     padding-top: 36px;
     font-size: 30px;
   }
 
-  .nvvr2 > p {
+  .nvvr2>p {
     font-size: 18px;
     margin: 0 0 15px 0;
   }
@@ -40,8 +40,14 @@
   .nvvr3 {
     display: none;
   }
+
   .product-item {
     height: 500px;
     width: 100%;
   }
+
+  .scrollsphone-container {
+    display: block;
+  }
+
 }
