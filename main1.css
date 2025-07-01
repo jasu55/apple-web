@@ -1,5 +1,5 @@
-.main1 {
-  margin-left: 144px;
+header p {
+  margin-bottom: 20px;
 }
 .section1 {
   display: flex;
@@ -28,7 +28,7 @@
 .assistant-text p {
   font-weight: 700;
   color: black;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 .assistant-shop div {
   text-decoration: underline;
@@ -48,6 +48,11 @@
   font-weight: 700;
   margin-top: 16px;
 }
+.main1 {
+  background-color: rgba(245, 245, 247, 1);
+  padding-left: 144px;
+  margin-top: -5px;
+}
 .main1 > p {
   font-size: 24px;
   font-weight: 700;
@@ -60,17 +65,67 @@
 }
 .scroll-price {
   flex-shrink: 0;
+  position: relative;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
 }
 .scroll-price-text {
   position: absolute;
   z-index: 1;
-  margin: 30px;
+  left: 30px;
+  bottom: 350px;
 }
 .price-image {
   width: 480px;
   border-radius: 18px;
-  position: relative;
 }
 .scroll-price div {
   color: rgba(182, 68, 0, 1);
+}
+.scroll-price h1,
+.scroll-price p {
+  color: rgba(29, 29, 31, 1);
+}
+
+.headphone scroll-price div {
+  font-size: 12px;
+}
+.headphone > div {
+  background-color: white;
+  width: 313px;
+  height: 500px;
+  border-radius: 18px;
+}
+.headphone > div:nth-child(1) {
+  width: 400px;
+  background-color: transparent;
+}
+.headphone .price-image {
+  width: 230px;
+  margin: 71px 41px 0 41px;
+}
+.headphone > div:nth-child(1) .price-image {
+  width: 400px;
+  margin: 0;
+}
+.dot-airpod-max {
+  margin: 0 0 0 109px;
+}
+.headphone .scroll-price h1 {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+}
+.headphone .scroll-price:nth-child(1) h1 {
+  font-size: 26px;
+  margin: 0;
+}
+.headphone p {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+.headphone .scroll-price-text {
+  top: 340px;
+}
+.headphone .scroll-price:nth-child(1) .scroll-price-text {
+  top: 60px;
 }

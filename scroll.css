@@ -3,11 +3,7 @@
   overflow: scroll;
   margin-top: 12px;
   font-size: 17px;
-}
-
-.scroll {
   display: flex;
-  width: 6300px;
   gap: 16px;
 }
 
@@ -19,7 +15,6 @@
   align-items: center;
 }
 
-
 .scroll button {
   padding: 12px 20px;
   background-color: white;
@@ -30,6 +25,7 @@
   position: relative;
   width: 1250px;
   height: 668px;
+  flex-shrink: 0;
 }
 
 .scroll-image {
