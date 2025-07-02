@@ -1,7 +1,7 @@
 body {
   font-family: inter;
   margin: 0%;
-  min-width: 1920px;
+  max-width: 1920px;
 }
 
 .apple-logo {
@@ -19,7 +19,7 @@ header > div {
 header > p {
   font-size: 14px;
   color: rgba(29, 29, 31, 1);
-  margin-bottom: 0px;
+  margin: 60px 0 0 0;
   padding-bottom: 0;
 }
 
@@ -33,11 +33,14 @@ header {
 }
 
 .header-container {
-  background-color: rgba(245, 245, 247, 0.8);
+  background-color: rgba(245, 245, 247, 1);
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 0;
+  max-width: 1920px;
 }
 
 .button-menu {

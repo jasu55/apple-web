@@ -1,3 +1,6 @@
+body {
+  max-width: 1920px;
+}
 header p {
   margin-bottom: 20px;
 }
@@ -48,15 +51,17 @@ header p {
   font-weight: 700;
   margin-top: 16px;
 }
-.main1 {
+main,
+footer {
   background-color: rgba(245, 245, 247, 1);
   padding-left: 144px;
   margin-top: -5px;
 }
-.main1 > p {
+main > p {
   font-size: 24px;
   font-weight: 700;
   margin: 60px 0 24px 0;
+  color: rgba(110, 110, 115, 1);
 }
 .scrolls-price {
   display: flex;
@@ -128,4 +133,89 @@ header p {
 }
 .headphone .scroll-price:nth-child(1) .scroll-price-text {
   top: 60px;
+}
+.headphone > div:nth-child(3) h1,
+.headphone > div:nth-child(4) h1 {
+  margin-top: 30px;
+}
+.gift-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  font-weight: 700;
+}
+.gift {
+  position: relative;
+  flex-shrink: 0;
+}
+.gift-text {
+  position: absolute;
+  font-size: 13px;
+  top: 50px;
+  left: 30px;
+  width: 305px;
+}
+.gift-image {
+  width: 480px;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+}
+.gift-text-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 646px;
+  flex-shrink: 0;
+}
+.gift-text-box > div {
+  width: 313px;
+  height: 240px;
+  background-color: white;
+  font-size: 22px;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 18px;
+}
+.gift-text-box p {
+  margin: 82px 0 0 30px;
+}
+.trade-in {
+  font-size: 12px;
+  color: rgba(110, 110, 115, 1);
+  position: absolute;
+  left: 30px;
+  top: 31px;
+}
+
+.experience h1,
+.saving h1 {
+  font-size: 26px;
+}
+.experience p,
+.saving p {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.experience .gift:nth-child(2) p,
+.experience .gift:nth-child(2) h1 {
+  color: white;
+}
+.saving .gift-image {
+  width: 400px;
+}
+.business .gift-text {
+  color: white;
+}
+footer h1 {
+  margin-top: 0px;
+  padding-top: 60px;
+  font-size: 26px;
+}
+footer button {
+  font-size: 14px;
+  padding: 10px 12px;
+  border-radius: 999px;
+  margin-left: 8px;
+  border: 1px solid;
+  color: rgba(29, 29, 31, 1);
 }

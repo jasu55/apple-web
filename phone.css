@@ -1,17 +1,20 @@
 @media (max-width: 390px) {
+  body {
+    max-width: 390px;
+  }
   .nvvr1 {
     background-image: url(images/Figure.png);
     height: 500px;
   }
 
-  .nvvr1>h1 {
+  .nvvr1 > h1 {
     padding-top: 330px;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 0;
   }
 
-  .nvvr1>p {
+  .nvvr1 > p {
     font-size: 18px;
     margin: 0 0 10px 0;
   }
@@ -27,12 +30,12 @@
     height: 500px;
   }
 
-  .nvvr2>h1 {
+  .nvvr2 > h1 {
     padding-top: 36px;
     font-size: 30px;
   }
 
-  .nvvr2>p {
+  .nvvr2 > p {
     font-size: 18px;
     margin: 0 0 15px 0;
   }
@@ -49,5 +52,4 @@
   .scrollsphone-container {
     display: block;
   }
-
 }

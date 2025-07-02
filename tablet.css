@@ -1,4 +1,7 @@
 @media (max-width: 768px) {
+  body {
+    max-width: 768px;
+  }
   .button-menu {
     display: block;
   }
@@ -25,7 +28,7 @@
     margin-left: 16px;
   }
 
-  .header>p {
+  .header > p {
     width: 444px;
   }
 
@@ -34,11 +37,11 @@
     height: 650px;
   }
 
-  .nvvr1>h1 {
+  .nvvr1 > h1 {
     font-size: 42px;
   }
 
-  .nvvr1>p {
+  .nvvr1 > p {
     font-size: 22px;
   }
 
@@ -47,12 +50,12 @@
     height: 650px;
   }
 
-  .nvvr2>h1 {
+  .nvvr2 > h1 {
     font-size: 42px;
     padding-top: 58px;
   }
 
-  .nvvr2>p {
+  .nvvr2 > p {
     font-size: 32px;
   }
 
@@ -73,7 +76,7 @@
     padding: 8px 16px;
   }
 
-  .product-item:nth-child(1)>p {
+  .product-item:nth-child(1) > p {
     color: black;
   }
 
