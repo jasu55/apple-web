@@ -1,5 +1,8 @@
 body {
-  max-width: 1920px;
+  min-width: 100vw;
+}
+header {
+  min-width: 100vw;
 }
 header p {
   margin-bottom: 20px;
@@ -36,6 +39,9 @@ header p {
 .assistant-shop div {
   text-decoration: underline;
   margin-bottom: 16px;
+}
+.ongot-zurag {
+  width: 100vw;
 }
 .divice-image {
   width: 120px;

@@ -1,7 +1,7 @@
 body {
   font-family: inter;
   margin: 0%;
-  max-width: 1920px;
+  min-width: 100vw;
 }
 
 .apple-logo {
@@ -40,7 +40,7 @@ header {
   align-items: center;
   position: fixed;
   top: 0;
-  max-width: 1920px;
+
   z-index: 100;
 }
 
@@ -57,4 +57,8 @@ header {
 .menu-container {
   display: flex;
   gap: 1.25vw;
+}
+.menu-container a {
+  text-decoration: none;
+  color: black;
 }
